@@ -24,9 +24,8 @@ class Case(object):
         self.possibles = None
 
     # Pour actualiser les possibles d'une case
-    def update_possibles(self):
-        #TODO
-        pass
+    def update_possibles(self, possibles):
+        self.possibles = possibles
 
     # Pour savoir le nombre de possibles (si la case à une valeur, cela renvoie 0)
     def get_nb_possibles(self):
